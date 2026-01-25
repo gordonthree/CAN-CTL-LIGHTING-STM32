@@ -1,5 +1,5 @@
 # Interior Lighting Controller
-Compact controller board intended to interface with three-channel PWM dimmable lighting modules. The controller works with other CANCTL modules using the robust CAN bus interface.
+Compact lighting controller board intended to interface with three-channel PWM dimmable lighting modules. The controller works with other CANCTL modules using the robust CAN bus interface.
 
 <img src="https://github.com/gordonthree/CAN-CTL-LIGHTING-STM32/blob/main/CAN-CTL-LIGHTING-STM32.png?raw=true" width=480 alt="3d rendering of circuit board">
 
