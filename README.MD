@@ -10,6 +10,7 @@ Compact lighting controller board intended to interface with three-channel PWM d
 * 3-pin terminal block for CANBUS connection with drain
 * Jumper selected CAN terminator resistor
 * Four five position screw terminal connectors for 12v lighting modules
+* 12 digital output channels in groups of 3, driven at 5v by hex schmitt line drivers
 * Two LED indicators for status, controlled by the micro
 * Bidirectional transient voltage protection diode for harsh environments
 * Headers for USART1 serial port and SWD programming connector
