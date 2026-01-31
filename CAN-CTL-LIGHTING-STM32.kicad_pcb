@@ -11478,6 +11478,19 @@
 		(layer "Edge.Cuts")
 		(uuid "e5718de8-bcf2-4cc3-affd-3d425b4a6717")
 	)
+	(gr_text "(C) 2026 G MCLELLAN\nCAN-CTL LIGHTING CONTROL MODULE\nEXTERNAL FUSING REQUIRED"
+		(at 103.5 111 90)
+		(layer "F.SilkS")
+		(uuid "02d47f34-013e-4ef6-94ed-95cb4f451dd9")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 150.5 124.2 0)
 		(layer "F.SilkS")
