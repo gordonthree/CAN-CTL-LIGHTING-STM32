@@ -175,7 +175,7 @@
 	(net 51 "unconnected-(U1-PB14-Pad34)")
 	(net 52 "unconnected-(U1-PB13-Pad33)")
 	(net 53 "unconnected-(U1-PA9{slash}PA11-Pad43)")
-	(net 54 "unconnected-(U1-PF0-Pad10)")
+	(net 54 "/OSC")
 	(net 55 "unconnected-(U1-PC1-Pad14)")
 	(net 56 "unconnected-(U1-PA4-Pad21)")
 	(net 57 "unconnected-(U1-PA10{slash}PA12-Pad44)")
@@ -4075,7 +4075,7 @@
 			(size 1.55 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 54 "unconnected-(U1-PF0-Pad10)")
+			(net 54 "/OSC")
 			(pinfunction "PF0")
 			(pintype "bidirectional")
 			(uuid "c9bffeb2-6cfa-4061-b793-666a57c2d844")
@@ -5778,6 +5778,261 @@
 			)
 		)
 	)
+	(footprint "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering"
+		(layer "F.Cu")
+		(uuid "63f81d28-9301-4bf4-bf8e-dfefcb55a318")
+		(at 131.6075 100.17)
+		(descr "EuroQuartz XO32, Miniature Crystal Clock Oscillator, 3.2x2.5mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+		(property "Reference" "Y1"
+			(at 0 -2.45 0)
+			(layer "F.SilkS")
+			(uuid "e7490a2f-f687-4ab2-a96a-9d308e99dc40")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 0 2.45 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "094b6f9a-a05d-489a-a1f5-5011a2d0176f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/294/1/ECS_3225MVQ.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18a53f8a-b79f-4189-afc4-1203863a381b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "ECS-3225MVQ CMOS Clock Oscillator 8 MHz"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69f04db7-378b-4a12-983d-bd2846897fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*")
+		(path "/d488ec4e-bf47-4f65-a08c-0a08ace0d1e7")
+		(sheetname "/")
+		(sheetfile "CAN-CTL-LIGHTING-STM32.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.585 0.065)
+			(end -1.86 0.065)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15b976be-6810-489a-bf37-e67f51aa98cb")
+		)
+		(fp_line
+			(start -2.585 1.485)
+			(end -1.86 1.485)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c401a4a2-e282-4a98-94b9-50c59b9ce22b")
+		)
+		(fp_line
+			(start -1.86 -1.51)
+			(end 1.86 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e88665f6-5751-4b73-9cf6-857c80072932")
+		)
+		(fp_line
+			(start -1.86 -1.485)
+			(end -1.86 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba8f0b63-b8fa-4b58-a4ca-3962386e152c")
+		)
+		(fp_line
+			(start -1.86 0.065)
+			(end -1.86 -0.065)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e7f64f34-a7c7-43c9-a07c-774a2a95ac47")
+		)
+		(fp_line
+			(start -1.86 1.485)
+			(end -1.86 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6106bcf7-ab34-4450-bd90-1de177d27707")
+		)
+		(fp_line
+			(start -1.86 1.51)
+			(end 1.86 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ec569f5-683b-441d-8fd1-e178ff365834")
+		)
+		(fp_line
+			(start 1.86 -1.51)
+			(end 1.86 -1.485)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f132c700-3360-4528-9fd4-4c10e2a70711")
+		)
+		(fp_line
+			(start 1.86 -0.065)
+			(end 1.86 0.065)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "024390fe-28d8-4d9d-bd3d-01fc7ef619d1")
+		)
+		(fp_line
+			(start 1.86 1.51)
+			(end 1.86 1.485)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95c873c2-39c4-4b67-815d-30898c240018")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Adhes")
+			(uuid "651252e6-4279-43bc-845e-74d07c9c62a2")
+		)
+		(fp_rect
+			(start -2.58 -1.75)
+			(end 2.58 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "04275775-8820-4af1-9b09-4d57d6ccd386")
+		)
+		(fp_poly
+			(pts
+				(xy 1.6 -1.25) (xy 1.6 1.25) (xy -0.975 1.25) (xy -1.6 0.625) (xy -1.6 -1.25)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "8a238deb-f34b-4fc8-81a1-f0933a84b777")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a199e2fd-b315-46ca-b3e1-3704142ddcc7")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.45 0.775)
+			(size 1.75 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "+3.3V")
+			(pinfunction "~{ST}")
+			(pintype "input")
+			(uuid "4c7126a5-4db7-47ee-885a-fc9522e7898b")
+		)
+		(pad "2" smd roundrect
+			(at 1.45 0.775)
+			(size 1.75 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "a26007fa-58c5-47e6-9b40-ce06af2c1ac5")
+		)
+		(pad "3" smd roundrect
+			(at 1.45 -0.775)
+			(size 1.75 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 54 "/OSC")
+			(pinfunction "OUT")
+			(pintype "output")
+			(uuid "e72212a9-607d-478e-8e8f-d497a99a5745")
+		)
+		(pad "4" smd roundrect
+			(at -1.45 -0.775)
+			(size 1.75 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "+3.3V")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "aef56375-2424-46d2-9fc3-0620754ad38d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "6b63cc16-8a1b-4d2b-95fc-d5c54c46ab2c")
@@ -5831,7 +6086,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* DIP*W7.62mm*")
-		(path "/f9c9e9aa-b076-4147-80e5-a55d48461d02")
+		(path "/e910da6d-60f1-41a6-952e-127301fe3c3f")
 		(sheetname "/")
 		(sheetfile "CAN-CTL-LIGHTING-STM32.kicad_sch")
 		(attr smd)
@@ -8221,6 +8476,148 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "bdac32a0-4899-4fef-9152-cbf2fb9f18bb")
+		(at 130.6375 103.7)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "COSC1"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "c1288995-a397-418e-abd6-8a2a16b028b9")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b7d2228-7bc9-4257-9641-c51ebfee2359")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96b9f9af-c02a-4b4e-80be-0a9bcd5c89e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b595b19-c542-4142-9439-d95297d1037d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/2bc38027-3eff-4392-ab6f-6c8605f24e14")
+		(sheetname "/")
+		(sheetfile "CAN-CTL-LIGHTING-STM32.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c4ce7a4b-7d25-409f-83a8-107bfb31e14c")
+		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aaa334c6-d7b3-47d2-a62a-cb66aab5fec8")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "744c2c5b-de1c-412f-84f0-14d8975403b5")
+		)
+		(fp_rect
+			(start -0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9f651a10-32f5-4a8b-a644-5a54913f28e0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d6667da8-27a3-4292-b3ba-fa54e54d44eb")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.8625 0)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "+3.3V")
+			(pintype "passive")
+			(uuid "009977e9-ba60-4cef-8613-ae38c36cfa96")
+		)
+		(pad "2" smd roundrect
+			(at 0.8625 0)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "449cc6d6-4d8c-440d-b582-22ffefd7a12e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
